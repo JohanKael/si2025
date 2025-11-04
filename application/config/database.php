@@ -79,7 +79,7 @@ if (ENVIRONMENT !== "production") {
 		'hostname' => 'localhost',
 		'username' => 'postgres',
 		'password' => 'postgres',
-		'database' => 'si',
+		'database' => 'si2025',
 		'dbdriver' => 'postgre',
 		'dbprefix' => '',
 		'pconnect' => FALSE,
