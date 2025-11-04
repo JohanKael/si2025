@@ -1,0 +1,305 @@
+/**************************** Basic balises ****************************/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+div, span{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/***************************** Natural css ****************************/
+
+.flex{
+    display: flex;
+}
+
+.grid{  /* apply to a div holding some div */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.center-x{
+    justify-content: center;
+}
+
+.center-y{
+    align-content: center;
+}
+
+.margin-x{
+    margin: 0 20px;
+}
+
+.margin-y{
+    margin: 20px 0;
+}
+
+.padding-x{
+    padding: 0 20px;
+}
+
+.padding-y{
+    padding: 20px 0;
+}
+
+.gap{
+    gap: 20px;
+}
+
+/******************************* Specific css ****************************/
+
+.card{
+    padding: 20px 20px;
+    border: solid 1px whitesmoke;
+    transition: ease .4s;
+    border-radius: 20px;
+}
+
+.card:hover{
+    border: solid 1px rgb(235, 235, 235);
+}
+
+
+
+
+
+.full-red{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 27, 27);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.full-red:hover{
+    background-color: rgb(200, 27, 27);
+}
+
+.full-green{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(64, 210, 62);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.full-green:hover{
+    background-color: rgb(92, 160, 62);
+}
+
+.full-blue{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(92, 174, 255);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.full-blue:hover{
+    background-color: rgb(71, 135, 199);
+}
+
+.full-yellow{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 215, 17);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.full-yellow:hover{
+    background-color: rgb(255, 180, 17);
+}
+
+.full-purple{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(191, 80, 255);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.full-purple:hover{
+    background-color: rgb(164, 68, 220);
+}
+
+.full-orange{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 142, 30);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.full-orange:hover{
+    background-color: rgb(233, 130, 27);
+}
+
+
+
+
+.stroke-red{
+    text-decoration: none;
+    color: rgb(255, 27, 27);
+    border: solid 1px rgb(255, 27, 27);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.stroke-red:hover{
+    border: solid 1px rgb(255, 27, 27);
+    background-color: rgb(255, 27, 27);
+    color: white;
+}
+
+.stroke-green{
+    text-decoration: none;
+    color: rgb(64, 210, 62);
+    border: solid 1px rgb(64, 210, 62);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.stroke-green:hover{
+    border: solid 1px rgb(64, 210, 62);
+    background-color: rgb(64, 210, 62);
+    color: white;
+}
+
+.stroke-blue{
+    text-decoration: none;
+    color: rgb(92, 174, 255);
+    border: solid 1px rgb(92, 174, 255);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.stroke-blue:hover{
+    border: solid 1px rgb(92, 174, 255);
+    background-color: rgb(92, 174, 255);
+    color: white;
+}
+
+.stroke-yellow{
+    text-decoration: none;
+    color: rgb(255, 215, 17);
+    border: solid 1px rgb(255, 215, 17);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.stroke-yellow:hover{
+    border: solid 1px rgb(255, 180, 17);
+    background-color: rgb(255, 180, 17);
+    color: white;
+}
+
+.stroke-purple{
+    text-decoration: none;
+    color: rgb(191, 80, 255);
+    border: solid 1px rgb(191, 80, 255);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.stroke-purple:hover{
+    border: solid 1px rgb(164, 68, 220);
+    background-color: rgb(164, 68, 220);
+    color: white;
+}
+
+.stroke-orange{
+    text-decoration: none;
+    color: rgb(255, 142, 30);
+    border: solid 1px rgb(255, 142, 30);
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: ease .1s;
+}
+
+.stroke-orange:hover{
+    border: solid 1px rgb(255, 142, 30);
+    background-color: rgb(255, 142, 30);
+    color: white;
+}
+
+
+
+
+.pill-red{
+    text-decoration: none;
+    color: rgb(255, 27, 27);
+    background-color:rgba(255, 27, 27, 0.2);
+    padding: 2px 10px;
+    border-radius: 20px;
+    transition: ease .1s;
+}
+
+.pill-green{
+    text-decoration: none;
+    color: rgb(64, 210, 62);
+    background-color:rgba(64, 210, 62, 0.2);
+    padding: 2px 10px;
+    border-radius: 20px;
+    transition: ease .1s;
+}
+
+.pill-blue{
+    text-decoration: none;
+    color: rgb(92, 174, 255);
+    background-color:rgba(92, 174, 255, 0.2);
+    padding: 2px 10px;
+    border-radius: 20px;
+    transition: ease .1s;
+}
+
+.pill-yellow{
+    text-decoration: none;
+    color: rgb(255, 215, 17);
+    background-color:rgba(255, 215, 17, 0.2);
+    padding: 2px 10px;
+    border-radius: 20px;
+    transition: ease .1s;
+}
+
+.pill-purple{
+    text-decoration: none;
+    color: rgb(191, 80, 255);
+    background-color:rgba(191, 80, 255, 0.2);
+    padding: 2px 10px;
+    border-radius: 20px;
+    transition: ease .1s;
+}
+
+.pill-orange{
+    text-decoration: none;
+    color: rgb(255, 142, 30);
+    background-color:rgba(255, 142, 30, 0.2);
+    padding: 2px 10px;
+    border-radius: 20px;
+    transition: ease .1s;
+}
+
+
+
+
+
